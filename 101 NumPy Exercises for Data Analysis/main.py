@@ -128,4 +128,7 @@ fourItems = iris_2d[:4]
 sepallength= np.genfromtxt(url, delimiter=',', dtype='float', usecols=[0])
 mu, med, std = np.mean(sepallength), np.median(sepallength), np.std(sepallength)
 
+# 29. How to normalize an array so the values range exactly between 0 and 1?
+
+
 print(mu, med, std)
